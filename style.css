@@ -94,7 +94,7 @@ p {
 
 @media (max-width: 450px) {
     header img {
-        width: 300px;
+        width: 250px;
     }
 
     main {
@@ -105,7 +105,14 @@ p {
     }
 
     main div {
-        width: 180px;
+        width: 90%;
+        height: 150px;
     }
+
+    main img {
+        width: 80px;
+    }
+    
+  
 }
 
