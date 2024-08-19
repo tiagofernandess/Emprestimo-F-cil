@@ -97,13 +97,19 @@ input {
 }
 
 @media (max-width: 450px) {
+    header img {
+        width: 250px;
+    }
+
     nav {
         text-align: center;
     }
+
     h1 {
         font-size: 25px;
         margin-top: 20px;
     }
+    
     form {
         width: 90%;
     }
