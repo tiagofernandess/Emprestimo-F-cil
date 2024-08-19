@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+header img {
+    width: 400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    border-bottom: 5px solid #004545;
+}
+
+body {
+    background-color: #ecf1ef;
+}
+
+nav {
+    width: 100%;
+    padding: 8px 30px;
+    text-align: end;
+    margin-top: 15px;
+}
+
+nav:hover {
+    opacity: 0.8;
+}
+
+nav:active {
+    opacity: 0.6;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #004545;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    background-color: #004545;
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+form div {
+    padding: 8px 0;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder{
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.save-or-clear {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.save-or-clear input {
+    width: 48%;
+    height: 40px;
+}
+
+.save-or-clear button {
+    width: 48%;
+}
