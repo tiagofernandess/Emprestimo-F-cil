@@ -103,6 +103,7 @@ input {
 
     nav {
         text-align: center;
+        
     }
 
     h1 {
@@ -110,8 +111,12 @@ input {
         margin-top: 20px;
     }
 
+    input {
+        height: 40px;
+    }
+
     form {
-        width: 90%;
+        width: 95%;
         margin-bottom: 30px;
     }
 }
