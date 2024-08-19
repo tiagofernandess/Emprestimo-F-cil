@@ -76,6 +76,10 @@ p {
         width: 250px;
     }
 
+    header div {
+        border-bottom: 5px solid #004545;
+    }
+
     main {
         margin: 15px 0;
         display: flex;
