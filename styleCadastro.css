@@ -95,3 +95,16 @@ input {
 .save-or-clear button {
     width: 48%;
 }
+
+@media (max-width: 450px) {
+    nav {
+        text-align: center;
+    }
+    h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    form {
+        width: 90%;
+    }
+}
