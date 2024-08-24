@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="shortcut icon" href="assets/imagem de fundo.png" type="image/x-icon">    
     <title>Tela de Login</title>
 </head>
 
@@ -17,24 +18,19 @@
     <main>
         <div class="login-container">
             <img src="assets/LOGO EMPRESTIMO FÁCIL.png" alt="logo-emprestimo-facil">
-            <h2>Acessar</h2>
-            <form id="loginForm">
-                <div class="error-message" id="errorMessage"></div>
-                <div class="main-input">
-                    <label for="username">Login</label>
-                    <input type="text" id="username" name="username" placeholder="Digite seu usuário" >
-                </div>
 
-                <div class="main-input">
-                    <label for="username">Senha</label>
-                    <input type="password" id="password" name="password" placeholder="Digite sua senha" >
-                </div>
+            <h2>Login</h2>
+            <label for="username">Usuário</label>
+            <input type="text" id="username" placeholder="Digite seu usuário">
 
-                <button onclick="enter()" type="submit">Entrar</button>
-            </form>
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha">
+
+            <button onclick="logIn()">Entrar</button>
+            <div id="error-message" class="error"></div>
         </div>
     </main>
-<script src="login.js"></script>    
+<script src="login.js"></script>       
 </body>
 
 </html>
