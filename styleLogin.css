@@ -86,10 +86,11 @@ button {
 
     input {
         height: 35px;
+        width: 100%;
     }
 
     button {
-        height: 35px;
+        height: 45px;
         font-size: 18px;
     }
 }
