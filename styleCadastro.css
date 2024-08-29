@@ -142,6 +142,10 @@ input {
 }
 
 @media (max-width: 450px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
     header img {
         width: 250px;
     }
@@ -160,7 +164,7 @@ input {
         height: 40px;
     }
 
-    form {
+    main div {
         width: 95%;
         margin-bottom: 30px;
     }
