@@ -150,6 +150,10 @@ input {
         border-bottom: 5px solid #004545;
     }
 
+    nav {
+        text-align: center;
+    }
+
     h1 {
         margin: 20px 0;
         font-size: 28px;
