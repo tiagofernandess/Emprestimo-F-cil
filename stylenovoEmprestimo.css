@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+header img {
+    width: 400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    border-bottom: 5px solid #004545;
+}
+
+
+body {
+    background-color: #ecf1ef;
+}
+
+nav {
+    width: 100%;
+    padding: 8px 30px;
+    text-align: end;
+    margin-top: 15px;
+}
+
+nav:hover {
+    opacity: 0.8;
+}
+
+nav:active {
+    opacity: 0.6;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #004545;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+form {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #004545;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main-input {
+    padding: 7px;
+    
+}
+
+label {
+    text-align: start;
+}
+
+input, select {
+    margin: 10px 0;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: none;
+    
+}
+
+::placeholder {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    background-color: #004545;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
