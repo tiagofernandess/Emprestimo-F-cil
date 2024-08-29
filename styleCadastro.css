@@ -142,29 +142,35 @@ input {
 }
 
 @media (max-width: 450px) {
-    main {
-        display: flex;
-        flex-direction: column;
-    }
     header img {
         width: 250px;
     }
 
-    nav {
-        text-align: center; 
+    header div {
+        border-bottom: 5px solid #004545;
     }
 
     h1 {
-        font-size: 25px;
-        margin-top: 20px;
+        margin: 20px 0;
+        font-size: 28px;
     }
 
-    input {
-        height: 40px;
+    main {
+        margin: 15px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
     }
 
     main div {
-        width: 95%;
-        margin-bottom: 30px;
+        margin: 0;
+        width: 90%;
+        height: 150px;
+    }
+
+    main div a img {
+        width: 80px;
     }
 }
